@@ -9,5 +9,5 @@ $ ruby links.rb
 ```
 
 # db
-Remove `api.db` if needed
+Remove the base `api.db` if needed
 
