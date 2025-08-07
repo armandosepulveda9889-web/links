@@ -4,7 +4,7 @@ API to handle links
 # setup
 After clone the repo do: 
 ```
-$ . ./setup.sh
+$ . ./local-setup.sh
 $ ruby links.rb
 ```
 
