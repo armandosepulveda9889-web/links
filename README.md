@@ -1,7 +1,9 @@
 # links
+
 API to handle links 
 
 # setup
+
 After clone the repo do: 
 ```
 $ . ./local-setup.sh
@@ -9,6 +11,7 @@ $ ruby links.rb
 ```
 
 # db
+
 Remove the base `api.db` if needed
 
 # references
@@ -20,3 +23,7 @@ Remove the base `api.db` if needed
 [Sequel libray](http://sequel.jeremyevans.net/)
 
 [Ruby's official JSON library documentation](https://ruby-doc.org/stdlib-2.6.1/libdoc/json/rdoc/JSON.html)
+
+# todo
+
+Explore additional features provided by Sinatra and Sequel to enhance our API furthe
