@@ -13,6 +13,9 @@ DB.create_table? :links do
 end
 
 class Link < Sequel::Model
+    def to_json a
+        { "title": self.title, "description": self.description, "link": self.link}.to_json
+    end
 end
 
 get '/links' do
