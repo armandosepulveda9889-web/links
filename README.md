@@ -27,3 +27,7 @@ Remove the base `api.db` if needed
 # todo
 
 Explore additional features provided by Sinatra and Sequel to enhance our API furthe
+
+# deploy
+
+Project deployed on `links-steel-tau.vercel.app`
