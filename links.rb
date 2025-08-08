@@ -34,14 +34,14 @@ end
 put '/links/:id' do |id|
     data = JSON.parse(request.body.read)
     link = Link[id]
-    link.update(title: data['title'],
+    link ? link.update(title: data['title'],
                 description: data['description'],
-                link: data['link'])
+                link: data['link']) : nil
     json link
 end
 
 delete '/links/:id' do |id|
     link = Link[id]
-    link.delete
+    link ? link.delete : nil
     json link
 end
